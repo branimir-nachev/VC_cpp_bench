@@ -49,6 +49,7 @@ int main()
         cv.wait(lk, []{return processed;});
     }
     std::cout << "Back in main(), data = " << data << '\n';
+    std::cout << "This is really a good test !" << std::endl;
 
     worker.join();
 }
