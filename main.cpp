@@ -50,6 +50,8 @@ int main()
     }
     std::cout << "Back in main(), data = " << data << '\n';
     std::cout << "This is really a good test !" << std::endl;
+    std::cout << "Hello, World !" << std::endl;
+    std::cout << "Nothing serious .. " << std::endl;
 
     worker.join();
 }
