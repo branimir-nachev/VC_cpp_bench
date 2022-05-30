@@ -50,6 +50,7 @@ int main()
     }
     std::cout << "Back in main(), data = " << data << '\n';
     std::cout << "This is really a good test !" << std::endl;
+    std::cout << "Git Graph is REALY very good!" << std::endl;
 
     worker.join();
 }
